@@ -35,9 +35,8 @@ The analysis of the election showed that:
 ## Summary
 Besides serving for the analysis of the present data, the python script created here can be easily adapted for future analysis of election data. The main reason why the script is versatile is because it was developed through the creation of general variables, lists and dictionaries. See for example the beginning of the code, where the path to load and save file (lines 9 and 11, respectively) will need to be adapted in a future analysis but variables, lists and dictionaries in lines 14 to 31 are general and can be used to calculate candidate and county votes in other datasets.
 
-Code example 1
+![Screen Shot 2021-11-06 at 8 44 00 PM](https://user-images.githubusercontent.com/89421440/140631995-2661d1d4-cd18-4ace-bd29-b992ce9e6cae.png)
 
 To use the script in any election, the main modification analysts will have to make is to substitute the list indexes to find the candidate names and the county names in the database. In the present database, candidates names and county names can be found in list indexes 2 and 1, respectively (See lines 47 and 50 below). This information will have to be updated for this code to work in other elections.
 
-Code example 2
-
+![Screen Shot 2021-11-06 at 8 56 09 PM](https://user-images.githubusercontent.com/89421440/140631999-641c10f1-9099-49a9-828d-82fc8c1e6d80.png)
