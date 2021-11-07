@@ -21,16 +21,16 @@ A database containing information on a U.S. congressional election was analyzed.
 The analysis of the election showed that:
 - There were 369,711 votes cast in the election;
 - The candidates were:
-		- Diana DeGette, who received 73.8% of the votes and 272,892 number of votes;
-		- Charles Casper Stockham, who received 23.0% of the votes and 85,213 number of votes;
-		- Raymon Anthony Doane, who received 3.1% of the votes and 11,606 number of votes.
+	- Diana DeGette, who received 73.8% of the votes and 272,892 number of votes;
+	- Charles Casper Stockham, who received 23.0% of the votes and 85,213 number of votes;
+	- Raymon Anthony Doane, who received 3.1% of the votes and 11,606 number of votes.
 - The counties included in the election were:
-		- Denver, where 82.8% of the votes and 306,055 number of votes were collected;
-		- Jefferson, where 10.5% of the votes and 38,855 number of votes were collected;
-		- Arapahoe, where 6.7% of the votes and 24,801 number of votes were collected;
+	- Denver, where 82.8% of the votes and 306,055 number of votes were collected;
+	- Jefferson, where 10.5% of the votes and 38,855 number of votes were collected;
+	- Arapahoe, where 6.7% of the votes and 24,801 number of votes were collected;
 - Therefore:
-		- The county with largest turnout was Denver;
-		- The winner of the election based on popular vote was Diana DeGette. 
+	- The county with largest turnout was Denver;
+	- The winner of the election based on popular vote was Diana DeGette. 
 
 ## Summary
 Besides serving for the analysis of the present data, the python script created here can be easily adapted for future analysis of election data. The main reason why the script is versatile is because it was developed through the creation of general variables, lists and dictionaries. See for example the beginning of the code, where the path to load and save file (lines 9 and 11, respectively) will need to be adapted in a future analysis but variables, lists and dictionaries in lines 14 to 31 are general and can be used to calculate candidate and county votes in other datasets.
